@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="fire" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <!-- Book / Study base -->
+  <path d="M128 176C128 158.327 142.327 144 160 144H240C248.837 144 256 151.163 256 160V368C256 359.163 248.837 352 240 352H160C142.327 352 128 366.327 128 384V176Z" fill="#ffffff" fill-opacity="0.9" />
+  <path d="M384 176C384 158.327 369.673 144 352 144H272C263.163 144 256 151.163 256 160V368C256 359.163 263.163 352 272 352H352C369.673 352 384 366.327 384 384V176Z" fill="#ffffff" />
+  <!-- Flame / Streak spark in the center -->
+  <path d="M256 200C256 200 280 230 280 256C280 270 268 280 256 280C244 280 232 270 232 256C232 230 256 200 256 200Z" fill="url(#fire)" />
+</svg>
